@@ -1,0 +1,45 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+
+body {
+  font-family: "PT Sans", "Arial", sans-serif;
+  background: #f4f5d7;
+  color: #000;
+}
+
+#southflorida {
+  height: 500px;
+  max-width: 700px;
+  margin: auto;
+  border: 1px solid #999;
+}
+h1 {
+  text-align: center;
+}
+p {
+  margin: auto;
+  max-width: 450px;
+  padding: 1rem;
+}
+
+#floridattractions {
+  height: 650px;
+  width: 75%;
+  margin: auto;
+}
+
+@media screen and (max-width: 450px) {
+  #southflorida {
+    height: 550px;
+    margin: 0;
+    max-width: 100%;
+  }
+  #floridattractions{
+    width: 100%;
+  }
+}
